@@ -80,7 +80,7 @@ input:checked + .slider:before {
    display:flex;
    flex-wrap: wrap;
     padding: 1rem;
-    max-width: 20rem;
+    max-width: 50rem;
     min-width: 10rem;
     border-radius: 6px;
     box-shadow: 3px 3px 6px rgba(0,0,0,0.6) ;
