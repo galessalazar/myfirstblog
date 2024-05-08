@@ -1,0 +1,29 @@
+:root {
+    --content-height:500px;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: rgb(155, 150, 136);
+    display:flex;
+    align-items: center;
+    justify-content: end;
+}
+
+main {
+    height: var(--content-height);
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 20px;
+}
+
+button {
+    cursor: grab;
+    background-color: black;
+    color: white;
+}
+
+
+
+
