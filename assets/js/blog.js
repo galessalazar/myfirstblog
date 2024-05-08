@@ -5,6 +5,12 @@ const bodyEl= document.querySelector('body')
 blogArray.forEach(blog => {
  blogCard += `
  <div class= 'blog-card'>
+ <div class="d-flex flex-column mb-3">
+  <div class="p-2"></div>
+  <div class="p-2"></div>
+  <div class="p-2"></div>
+</div>
+
  <h3>Title: ${blog.title}</h3>
  <h3>Posted by: ${blog.username}</h3>
  <p>Content: ${blog.content}</p>
